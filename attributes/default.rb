@@ -1,4 +1,5 @@
-default['audit']['reporter'] = 'chef-server-compliance'
+default['audit']['reporter'] = 'chef-server-automate'
+default['audit']['fetcher'] = 'chef-server'
 
 default['audit']['profiles'].push(
     {
